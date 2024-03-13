@@ -50,14 +50,14 @@ export const Banner = () =>{
                         <TrackVisibility>
                             {({ isVisible }) =>
                             <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                                <span className="tagline">Welcome to my portfolio</span>
+                                <span className="tagline">Bienvenidos a mi Portfolio</span>
                                 <h1>{'Hola soy Graciela'} <span className="wrap">{text}</span></h1>
                                 <p>Desde que descubrí el nuevo mundo IT me apacioné con él, hay muchas tecnologias nuevas por indagar y 
                                         aprender y miles de caminos por seguir y perfeccionarte
                                     en el que mejor se adapte a tus preferencias.
                                     Este cambio de paradigma por el que estamos pasando ha despertado aún más mi curiosidad por aprender.
                                     Mi objetivo  es seguir perfeccionandome en este fascinante y enigmante mundo. </p>
-                                <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
+                                <button onClick={() => console.log('connect')}>Vamos a Conectarnos <ArrowRightCircle size={25} /></button>
                             </div>}
                         </TrackVisibility>
                     </Col>
