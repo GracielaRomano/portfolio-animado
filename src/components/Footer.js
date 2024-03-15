@@ -17,9 +17,9 @@ return (
                 </Col>
                 <Col sm={6} >
                     <div className="social-icon-footer">
-                        <a href=""><img src ={navIcon1} /></a>
-                        <a href=""><img src ={navIcon2} /></a>
-                        <a href=""><img src ={navIcon3} /></a>
+                        <a href="https://www.linkedin.com/in/graciela-del-valle-romano-11954275/" target="_blank"  rel="noreferrer noopener"><img src ={navIcon1} /></a>
+                        <a href="https://www.facebook.com/gracieladr" target="_blank"  rel="noreferrer noopener"><img src ={navIcon2} /></a>
+                        <a href="https://github.com/GracielaRomano" target="_blank"  rel="noreferrer noopener"><img src ={navIcon3} /></a>
                     </div>
                     
                 </Col>

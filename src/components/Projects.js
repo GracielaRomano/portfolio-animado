@@ -3,14 +3,24 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import { CertiCard } from "./CertiCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
-import mindHub from '../assets/img/mindhub.jpg';
-import codo from '../assets/img/codoacodo.jpg';
+import project1 from "../assets/img/project1.1.png";
+import beer from "../assets/img/beer-app1.png";
+import mundo from "../assets/img/por-el-mundo1.png";
+import gym from '../assets/img/gym-fit-app1.png';
+import event from '../assets/img/eventos1.png';
+import ecommerce from '../assets/img/ecommerce1.png';
+import portfolio from '../assets/img/portfolio1.png';
+import tinerary from '../assets/img/myTinerary.png';
+import miFerreteria from '../assets/img/miFerreteria.png';
+import mindHub from '../assets/img/mindHub.png';
+import codo from '../assets/img/codoacodo1.png';
 import ibm from '../assets/img/ibm.png';
 import hong from '../assets/img/hongk3.png';
-
+import duke from '../assets/img/duke2.jpg';
+import mcmaster from '../assets/img/mcmaster.jpg';
+import jhons from '../assets/img/jhons.png';
+import ieBusiness from '../assets/img/ie2.jpg';
+import austral from '../assets/img/austral.png'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -18,35 +28,50 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () =>{
     const projects = [
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg1,
+          title: "Proyecto para Restaurante en React",
+          description: "Desarrollo y Diseño",
+          imgUrl: project1,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg2,
+          title: "Proyecto para cerveceria en HTML y Bootstrap",
+          description: "Desarrollo y Diseño",
+          imgUrl: beer,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg3,
+          title: "Proyecto para Blog de Viajes en Python",
+          description: "Desarrollo y Diseño",
+          imgUrl: mundo,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg1,
+          title: "Proyecto para Gym multilenguaje en React",
+          description: "Desarrollo y Diseño",
+          imgUrl: gym,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg2,
+          title: "Proyecto para Empresa de Eventos en HTML Y CSS",
+          description: "Desarrollo y Diseño",
+          imgUrl: event,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg3,
+          title: "Proyecto para Ecommerce en Django",
+          description: "Desarrollo y Diseño",
+          imgUrl: ecommerce,
         },
+        {
+            title: "Mi Primer Portfolio en React",
+            description: "Desarrollo y Diseño",
+            imgUrl: portfolio,
+          },
+          {
+            title: "Proyecto para Empresas de Viajes en React y Node.JS",
+            description: "Desarrollo y Diseño",
+            imgUrl: tinerary,
+          },
+          {
+            title: "Proyecto para Ferreteria en HTML y Bootstrap",
+            description: "Diseño y Desarrollo",
+            imgUrl: miFerreteria,
+          },
     ];
     const certifications = [
         {
@@ -65,17 +90,91 @@ export const Projects = () =>{
           imgUrl: codo,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
+          title: "Cloud Application Development Foundations",
+          description: "Enero 2022",
           imgUrl: ibm,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
+          title: "Full-Stack Web Development with React",
+          description: "Diciembre 2021",
           imgUrl: hong,
         },
         
     ];
+    const courses = [
+        {
+          title: "Diseño UX/UI",
+          description: "Diciembre 2022",
+          imgUrl: codo,
+        },
+        {
+          title: "Django",
+          description: "Diciembre 2022",
+          imgUrl: codo,
+        },
+        {
+            title: "Introduction to Containers w/ Docker, Kubernetes & OpenShift",
+            description: "Febrero 2022",
+            imgUrl: ibm,
+        },
+        {
+          title: "Developing Cloud Apps with Node.js and React",
+          description: "Enero 2022",
+          imgUrl: ibm,
+        },
+        {
+          title: "Front-End Web Development with React",
+          description: "Enero 2022",
+          imgUrl: hong,
+        },
+        {
+          title: "Developing Cloud Native Applications",
+          description: "Enero 2022",
+          imgUrl: ibm,
+        },
+        {
+            title: "Introduction to Web Development with HTML, CSS, JavaScript",
+            description: "Diciembre 2021",
+            imgUrl: ibm,
+        },
+        {
+            title: "Server-side Development with NodeJS, Express and MongoDB",
+            description: "Diciembre 2021",
+            imgUrl: hong,
+        },
+        {
+            title: "Front-End Web UI Frameworks and Tools: Bootstrap 4",
+            description: "Agosto 2021",
+            imgUrl: hong,
+        },
+        {
+            title: "Programming Foundations with JavaScript, HTML and CSS",
+            description: "Julio 2021",
+            imgUrl: duke,
+        },
+        {
+            title: "Mindshift: Transforma tu mente para superar obstáculos en el aprendizaje y descubrir tu potencial oculto",
+            description: "Diciembre 2020",
+            imgUrl: mcmaster,
+        },
+        {
+            title: "The Data Scientist's Toolbox",
+            description: "Diciembre 2020",
+            imgUrl: jhons,
+        },
+        {
+            title: "Aprendiendo a Aprender",
+            description: "Diciembre 2020",
+            imgUrl: ieBusiness,
+        },
+        {
+            title: "Excel aplicado a los negocios (Nivel Avanzado)",
+            description: "Noviembre 2020",
+            imgUrl: austral,
+        },
+        
+    ];
+
 
     return (
          <section className="project" id="projects">
@@ -134,7 +233,18 @@ export const Projects = () =>{
                                     </Row>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="third">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                                <Row>
+                                        {
+                                            courses.map((course, index) => {
+                                                return (
+                                                    <CertiCard
+                                                        key={index}
+                                                        {...course}
+                                                    />
+                                                )
+                                            })
+                                        }
+                                    </Row>
                                 </Tab.Pane>
                             </Tab.Content>
                         </Tab.Container>

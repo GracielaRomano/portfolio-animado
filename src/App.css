@@ -183,6 +183,54 @@ span.navbar-text {
 	position: absolute;
   border-radius: 10px;
 }
+.modal-styles{
+  margin-top: 70px;
+  
+}
+.modal-header{
+  /*background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);*/
+  background: linear-gradient(90.21deg, #AA367C -3%, #4A2FBD 120%);
+  color: #000;
+}
+.title-modal{
+  text-align: center;
+  margin-left: 50px;
+}
+.modal-body{
+  height: 320px;
+  background-image: url('./assets/img/avatarProgramadora2.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modal-footer{
+  background: linear-gradient(90.21deg, #AA367C -3%, #4A2FBD 120%) !important;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+}
+.buton-modal{
+  margin-top: 20px;
+  margin-right: 3px;
+  width: 100px;
+  background-color: #282c34;
+  color: #fff;
+  border: #fff 1px solid !important;
+}
+.buton-modal:hover{
+  background-color: #fff !important;
+  color: #282c34 !important;
+  font-weight: bold !important;
+}
+.modal-address{
+  margin-top: 180px;
+  margin-left: 10px;
+}
+.icon-address{
+  width: 18px;
+  height: 18px;
+  margin-right: 7px;
+}
 nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
 	outline: none;
@@ -435,6 +483,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  width: 370px;
+  height: 300px;
+}
+.img-project{
+  width: 370px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 30px;
+  border: #fff 1px solid;
 }
 .proj-imgbx::before {
   content: "";
@@ -454,8 +511,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
   margin-bottom: 24px;
   width: 300px;
-  height: 205px;
-  border: #fff 1px solid; 
+  height: 250px;
+   
+}
+.image-card{
+  width: 300px;
+  height: 250px;
+  object-fit: fill;
+  border-radius: 30px;
+  border: #fff 1px solid;
 }
 .proj-certi::before {
   content: "";
@@ -488,7 +552,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 1;
 }
 .proj-txtx h4 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
@@ -508,7 +572,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Contact Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
