@@ -1,0 +1,108 @@
+{
+    "navbar": {
+        "home": "Home",
+        "skills":  "Competenze",
+        "projects": "Progetti",
+        "button": "Ci Connettiamo",
+        "title":"Informazioni Sui Contatti",
+        "direction": "El Palomar - Buenos Aires",
+        "phone": "1127560455",
+        "email": "graci.romano@gmail.com",
+        "close": "Vicino"
+    },
+    "banner": {
+        "welcome":"Benvenuti nel mio portfolio",
+        "text": "Da quando ho scoperto il nuovo mondo che mi sono alzato con lui, ci sono molte nuove tecnologie per indagare e imparare e migliaia di percorsi per continuare e perfezionarti in cui si adatta meglio alle tue preferenze.Questo cambiamento di paradigma che stiamo attraversando ha ancora più risvegliato la mia curiosità per imparare.Il mio obiettivo è continuare a perfezionarmi in questo mondo affascinante ed enigmante.",
+        "text2": "Ciao io sono Graciela",
+        "rotate": "Web Developer",
+        "rotate1": "Web Designer",
+        "rotate2": "UI/UX Designer",
+        "rotate3": "Front End Developer"
+    },
+    "skill":{
+        "h2": "Competenze",
+        "text": "In questa sezione ti mostro tutte le mie abilità, sia morbide che dura.",
+        "title": "HTML5",
+        "title2": "CSS3",
+        "title3": "BOOTSTRAP",
+        "title4": "REACT",
+        "title5": "JS",
+        "title6": "NODE.JS",
+        "title7": "PHYTON",
+        "title8": "DJANGO",
+        "h6": "Abilità Trasversali",
+        "li": "Lavoro di squadra",
+        "li1": "Resilienza",
+        "li2": "Empatia",
+        "li3": "Perseveranza",
+        "li4": "Comunicazione",
+        "li5": "Gestione del Tempo",
+        "li6": "Risoluzione del Problema",
+        "li7": "Intelligenza emotiva",
+        "li8": "Organizzazione",
+        "li9": "Autodidatta",
+        "li10": "Attitudine positiva",
+        "li11": "Responsabilità",
+        "li12": "Capacità di Apprendimento",
+        "li13": "Adattabilità"
+    },
+    "project": {
+        "title": "Progetto del Ristorante in React",
+        "title1": "Progetto per Breweria in HTML y Bootstrap",
+        "title2": "Progetto blog di viaggio in Python",
+        "title3": "Progetto di Palestre Multilenguage in React",
+        "title4": "Progetto Aziendale di Eventi in HTML Y CSS",
+        "title5": "Progetto di eCommerce in Django",
+        "title6": "Il Mio Primo Portafoglio in React",
+        "title7": "Progetto per compagnie di viaggio in React y Node.JS",
+        "title8": "Progetto di Ferreteria in HTML y Bootstrap",
+        "description": "Sviluppo e Design",
+        "certi": "Bootcamp Sviluppatore Full Stack MERN",
+        "description1": "Settembre 2023",
+        "certi2": "Bootcamp Sviluppatore Web Front End",
+        "description2": "Marzo 2023",
+        "certi3": "Full Stack Python",
+        "description3": "Luglio 2022",
+        "certi4": "Cloud Application Development Foundations",
+        "description4": "Gennaio 2022",
+        "certi5": "Full-Stack Web Development with React",
+        "description5": "Dicembre 2021",
+        "curse": "Design UX/UI",
+        "description6": "Dicembre 2022",
+        "curse1": "Django",
+        "curse2": "Introduction to Containers w/ Docker, Kubernetes & OpenShift",
+        "description7": "Febbraio 2022",
+        "curse3": "Developing Cloud Apps with Node.js and React",
+        "description8": "Gennaio 2022",
+        "curse4": "Front-End Web Development with React",
+        "curse5": "Developing Cloud Native Applications",
+        "curse6": "Introduction to Web Development with HTML, CSS, JavaScript",
+        "description9": "Dicembre 2021",
+        "curse7": "Server-side Development with NodeJS, Express and MongoDB",
+        "curse8": "Front-End Web UI Frameworks and Tools: Bootstrap 4",
+        "description10": "Agosto 2021",
+        "curse9": "Programming Foundations with JavaScript, HTML and CSS",
+        "description11": "Luglio 2021",
+        "curse10": "Mindshift: Trasforma la tua mente per superare gli ostacoli all'apprendimento e scopri il tuo potenziale nascosto",
+        "description12": "Dicembre 2020",
+        "curse11": "The Data Scientist's Toolbox",
+        "curse12": "Imparare ad Imparare",
+        "curse13": "Excel applicato al business (Livello Avanzato)",
+        "description13": "Novembre 2020",
+        "h2": "Progetti",
+        "text": "Nei miei inizi i miei progetti sono stati realizzati in HTML e CSS, poi mi sono allenato e i miei progetti hanno addebitato più forme, tra cui animazioni, database e API. ALGUNOS sono realizzati in JS, quindi sono stato incoraggiato a reagire con Node.js, quindi appreso Qualcosa a Phyton, Django",
+        "link": "Progetti",
+        "link1": "Certificazioni",
+        "link2": "Corsi"
+    }
+    }
+ 
+
+
+
+
+
+
+
+
+
