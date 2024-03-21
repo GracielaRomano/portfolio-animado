@@ -53,7 +53,7 @@ export const Banner = () =>{
                             {({ isVisible }) =>
                             <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                 <span className="tagline">{t("banner.welcome")}</span>
-                                <h1>{t("banner.text2")} <span className="wrap">{text}</span></h1>
+                                <h1>{t("banner.text2")}</h1> <span className="wrap title-rotate">{text}</span>
                                 <p>{t("banner.text")} </p>
                                 {/*<button onClick={() => console.log('connect')}>Vamos a Conectarnos <ArrowRightCircle size={25} /></button>*/}
                             </div>}

@@ -70,10 +70,15 @@ input:focus, textarea:focus, select:focus {
 
 p.success {
 	color: green;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 p.danger {
 	color: red;
+  margin-top: 10px;
+  font-weight: 800;
 }
 
 /************ Navbar Css ************/
@@ -320,7 +325,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
 }
 .banner h1 {
-  font-size: 65px;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+.title-rotate{
+  font-size: 50px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -630,6 +643,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 0.8;
 }
 .contact form button {
+  width: 100%;
   font-weight: 700;
   color: #000;
   background-color: #fff;
