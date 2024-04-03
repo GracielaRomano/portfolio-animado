@@ -63,7 +63,7 @@ export const NavBar = () =>{
                     </Nav>
                     <span className='navbar-text'>
                         <div className='social-icon'>
-                        <a href="https://www.linkedin.com/in/graciela-del-valle-romano-11954275/" target="_blank"  rel="noreferrer noopener"><img src={navIcon1} alt="" /></a>
+                        <a href="https://www.linkedin.com/in/gracielaromano/" target="_blank"  rel="noreferrer noopener"><img src={navIcon1} alt="" /></a>
                         <a href="https://www.facebook.com/gracieladr" target="_blank"  rel="noreferrer noopener"><img src={navIcon2} alt="" /></a>
                         <a href="https://github.com/GracielaRomano" target="_blank"  rel="noreferrer noopener"><img src={navIcon3} alt="" /></a>
                         </div>
